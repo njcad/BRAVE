@@ -1,3 +1,16 @@
+#!/usr/bin/env python3
+
+"""
+File: match.py
+
+Description: uses the "hungarian algorithm" in scipy.optimize linear_sum_assignment to optimize matches 
+between control, abstain, and relapse groups by minimizing age differences. For BRAVE Lab and Stanford 
+BioX 2023 project.
+
+Author: Nate Cadicamo 
+
+Date: July 2023
+"""
 
 import numpy as np
 from scipy.optimize import linear_sum_assignment
@@ -101,3 +114,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+            
